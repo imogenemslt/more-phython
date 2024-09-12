@@ -47,4 +47,35 @@ print()
 email= input("enter an email:")
 validateEmail(email)
 
-        
+#code wasnt working
+
+#function chalenge
+
+def calculations():
+    kmA = personA * 21.23 * 2 / 100
+    kmA = round(kmA, 2)
+    print(kmA)
+    kmB = personB_D * 21.23 * 2/ 100 + personB_C
+    kmB = round(kmB, 2)
+    print(kmB)
+    print(personC)
+
+
+personA = int(input("A: how many km away dose personA live from the course? : "))
+personB_D = int(input("B: how many km did personB drive to the station? : "))
+personB_C = int(input("B: how muchdid the train and taxi cost personB? : "))
+personC = int(input("C: how much did the taxi and bus cost personC? : "))
+calculations()
+
+if personA >= 32:
+    print ("personA can claim for the jurney")
+else:
+    print("personA cant claim for the jurney")
+if personB_D >= 32:
+    print("personB can claim for the jurney")
+else:
+    print("personB cant claim for the jurney")
+    
+#task 8 pg 203
+    
+

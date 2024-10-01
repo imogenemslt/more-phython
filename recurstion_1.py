@@ -17,10 +17,6 @@ num= int(input("enter a num: "))
 print(num, "=",function(num))
 
 
-#task 3 (but for loop)
-num = int(input("enter number: "))
-for i in range (num,1,-1):
-
 #task 1 pg 209
 def fibonacci():
     fib = [0, 1]
